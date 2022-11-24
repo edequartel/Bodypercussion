@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		478D2AE6292F41A60008B8D2 /* BodypercussionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2AE5292F41A60008B8D2 /* BodypercussionApp.swift */; };
 		478D2AE8292F41A60008B8D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2AE7292F41A60008B8D2 /* ContentView.swift */; };
-		478D2AEA292F41A60008B8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478D2AE9292F41A60008B8D2 /* Assets.xcassets */; };
 		478D2AED292F41A60008B8D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478D2AEC292F41A60008B8D2 /* Preview Assets.xcassets */; };
 		478D2AF7292F41A70008B8D2 /* BodypercussionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2AF6292F41A70008B8D2 /* BodypercussionTests.swift */; };
 		478D2B01292F41A70008B8D2 /* BodypercussionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2B00292F41A70008B8D2 /* BodypercussionUITests.swift */; };
 		478D2B03292F41A70008B8D2 /* BodypercussionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2B02292F41A70008B8D2 /* BodypercussionUITestsLaunchTests.swift */; };
+		478D2B10292F439A0008B8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478D2B0F292F439A0008B8D2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +37,13 @@
 		478D2AE2292F41A60008B8D2 /* Bodypercussion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bodypercussion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		478D2AE5292F41A60008B8D2 /* BodypercussionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodypercussionApp.swift; sourceTree = "<group>"; };
 		478D2AE7292F41A60008B8D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		478D2AE9292F41A60008B8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		478D2AEC292F41A60008B8D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		478D2AF2292F41A70008B8D2 /* BodypercussionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodypercussionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		478D2AF6292F41A70008B8D2 /* BodypercussionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodypercussionTests.swift; sourceTree = "<group>"; };
 		478D2AFC292F41A70008B8D2 /* BodypercussionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodypercussionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		478D2B00292F41A70008B8D2 /* BodypercussionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodypercussionUITests.swift; sourceTree = "<group>"; };
 		478D2B02292F41A70008B8D2 /* BodypercussionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodypercussionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		478D2B0F292F439A0008B8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Dicer-SwiftUI/Dicee-SwiftUI/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			children = (
 				478D2AE5292F41A60008B8D2 /* BodypercussionApp.swift */,
 				478D2AE7292F41A60008B8D2 /* ContentView.swift */,
-				478D2AE9292F41A60008B8D2 /* Assets.xcassets */,
+				478D2B0F292F439A0008B8D2 /* Assets.xcassets */,
 				478D2AEB292F41A60008B8D2 /* Preview Content */,
 			);
 			path = Bodypercussion;
@@ -232,7 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				478D2AED292F41A60008B8D2 /* Preview Assets.xcassets in Resources */,
-				478D2AEA292F41A60008B8D2 /* Assets.xcassets in Resources */,
+				478D2B10292F439A0008B8D2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
