@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		381637B90DB4E2C110762195 /* Pods_Bodypercussion_BodypercussionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A7CC899097E780DA416592 /* Pods_Bodypercussion_BodypercussionUITests.framework */; };
+		470FFBC1293148470086ED7D /* adult_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBB7293148470086ED7D /* adult_6.mp3 */; };
+		470FFBC2293148470086ED7D /* adult_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBB8293148470086ED7D /* adult_7.mp3 */; };
+		470FFBC3293148470086ED7D /* adult_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBB9293148470086ED7D /* adult_2.mp3 */; };
+		470FFBC4293148470086ED7D /* adult_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBA293148470086ED7D /* adult_8.mp3 */; };
+		470FFBC5293148470086ED7D /* adult_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBB293148470086ED7D /* adult_0.mp3 */; };
+		470FFBC6293148470086ED7D /* adult_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBC293148470086ED7D /* adult_1.mp3 */; };
+		470FFBC7293148470086ED7D /* adult_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBD293148470086ED7D /* adult_3.mp3 */; };
+		470FFBC8293148470086ED7D /* adult_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBE293148470086ED7D /* adult_5.mp3 */; };
+		470FFBC9293148470086ED7D /* adult_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBF293148470086ED7D /* adult_4.mp3 */; };
+		470FFBCA293148470086ED7D /* adult_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBC0293148470086ED7D /* adult_9.mp3 */; };
 		478D2AE6292F41A60008B8D2 /* BodypercussionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2AE5292F41A60008B8D2 /* BodypercussionApp.swift */; };
 		478D2AE8292F41A60008B8D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2AE7292F41A60008B8D2 /* ContentView.swift */; };
 		478D2AED292F41A60008B8D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478D2AEC292F41A60008B8D2 /* Preview Assets.xcassets */; };
@@ -14,6 +25,8 @@
 		478D2B01292F41A70008B8D2 /* BodypercussionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2B00292F41A70008B8D2 /* BodypercussionUITests.swift */; };
 		478D2B03292F41A70008B8D2 /* BodypercussionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2B02292F41A70008B8D2 /* BodypercussionUITestsLaunchTests.swift */; };
 		478D2B10292F439A0008B8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478D2B0F292F439A0008B8D2 /* Assets.xcassets */; };
+		9E4A9105C2EE8238609A5759 /* Pods_Bodypercussion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B855F84EE9588707ABF40F8 /* Pods_Bodypercussion.framework */; };
+		B01B7FE65B890AF21CD7BC38 /* Pods_BodypercussionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE6178AEECFC266148AFCF6 /* Pods_BodypercussionTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041CE1302A62782C73F1E0C9 /* Pods-BodypercussionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BodypercussionTests.debug.xcconfig"; path = "Target Support Files/Pods-BodypercussionTests/Pods-BodypercussionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B855F84EE9588707ABF40F8 /* Pods_Bodypercussion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bodypercussion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		114C9BCD5115852996DC472A /* Pods-BodypercussionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BodypercussionTests.release.xcconfig"; path = "Target Support Files/Pods-BodypercussionTests/Pods-BodypercussionTests.release.xcconfig"; sourceTree = "<group>"; };
+		1AE6178AEECFC266148AFCF6 /* Pods_BodypercussionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BodypercussionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		470FFBB7293148470086ED7D /* adult_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_6.mp3; sourceTree = "<group>"; };
+		470FFBB8293148470086ED7D /* adult_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_7.mp3; sourceTree = "<group>"; };
+		470FFBB9293148470086ED7D /* adult_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_2.mp3; sourceTree = "<group>"; };
+		470FFBBA293148470086ED7D /* adult_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_8.mp3; sourceTree = "<group>"; };
+		470FFBBB293148470086ED7D /* adult_0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_0.mp3; sourceTree = "<group>"; };
+		470FFBBC293148470086ED7D /* adult_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_1.mp3; sourceTree = "<group>"; };
+		470FFBBD293148470086ED7D /* adult_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_3.mp3; sourceTree = "<group>"; };
+		470FFBBE293148470086ED7D /* adult_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_5.mp3; sourceTree = "<group>"; };
+		470FFBBF293148470086ED7D /* adult_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_4.mp3; sourceTree = "<group>"; };
+		470FFBC0293148470086ED7D /* adult_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_9.mp3; sourceTree = "<group>"; };
 		478D2AE2292F41A60008B8D2 /* Bodypercussion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bodypercussion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		478D2AE5292F41A60008B8D2 /* BodypercussionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodypercussionApp.swift; sourceTree = "<group>"; };
 		478D2AE7292F41A60008B8D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +71,11 @@
 		478D2B00292F41A70008B8D2 /* BodypercussionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodypercussionUITests.swift; sourceTree = "<group>"; };
 		478D2B02292F41A70008B8D2 /* BodypercussionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodypercussionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		478D2B0F292F439A0008B8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Dicer-SwiftUI/Dicee-SwiftUI/Assets.xcassets"; sourceTree = "<group>"; };
+		586457360EB38689B98DF835 /* Pods-Bodypercussion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bodypercussion.release.xcconfig"; path = "Target Support Files/Pods-Bodypercussion/Pods-Bodypercussion.release.xcconfig"; sourceTree = "<group>"; };
+		61A7CC899097E780DA416592 /* Pods_Bodypercussion_BodypercussionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bodypercussion_BodypercussionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D39679E01E5B934E8EC601 /* Pods-Bodypercussion-BodypercussionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bodypercussion-BodypercussionUITests.release.xcconfig"; path = "Target Support Files/Pods-Bodypercussion-BodypercussionUITests/Pods-Bodypercussion-BodypercussionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DDC4ADABAB7E8F62EBF0DA6A /* Pods-Bodypercussion-BodypercussionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bodypercussion-BodypercussionUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bodypercussion-BodypercussionUITests/Pods-Bodypercussion-BodypercussionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBB9092218BC3CC09CBDD555 /* Pods-Bodypercussion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bodypercussion.debug.xcconfig"; path = "Target Support Files/Pods-Bodypercussion/Pods-Bodypercussion.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4A9105C2EE8238609A5759 /* Pods_Bodypercussion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01B7FE65B890AF21CD7BC38 /* Pods_BodypercussionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +99,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381637B90DB4E2C110762195 /* Pods_Bodypercussion_BodypercussionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		470FFBB6293148210086ED7D /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				470FFBBB293148470086ED7D /* adult_0.mp3 */,
+				470FFBBC293148470086ED7D /* adult_1.mp3 */,
+				470FFBB9293148470086ED7D /* adult_2.mp3 */,
+				470FFBBD293148470086ED7D /* adult_3.mp3 */,
+				470FFBBF293148470086ED7D /* adult_4.mp3 */,
+				470FFBBE293148470086ED7D /* adult_5.mp3 */,
+				470FFBB7293148470086ED7D /* adult_6.mp3 */,
+				470FFBB8293148470086ED7D /* adult_7.mp3 */,
+				470FFBBA293148470086ED7D /* adult_8.mp3 */,
+				470FFBC0293148470086ED7D /* adult_9.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		478D2AD9292F41A50008B8D2 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +130,8 @@
 				478D2AF5292F41A70008B8D2 /* BodypercussionTests */,
 				478D2AFF292F41A70008B8D2 /* BodypercussionUITests */,
 				478D2AE3292F41A60008B8D2 /* Products */,
+				AB0703BE631FEFE9E16EF0DB /* Pods */,
+				7255AEFF660310FAADC9810B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +148,7 @@
 		478D2AE4292F41A60008B8D2 /* Bodypercussion */ = {
 			isa = PBXGroup;
 			children = (
+				470FFBB6293148210086ED7D /* Audio */,
 				478D2AE5292F41A60008B8D2 /* BodypercussionApp.swift */,
 				478D2AE7292F41A60008B8D2 /* ContentView.swift */,
 				478D2B0F292F439A0008B8D2 /* Assets.xcassets */,
@@ -127,6 +182,29 @@
 			path = BodypercussionUITests;
 			sourceTree = "<group>";
 		};
+		7255AEFF660310FAADC9810B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B855F84EE9588707ABF40F8 /* Pods_Bodypercussion.framework */,
+				61A7CC899097E780DA416592 /* Pods_Bodypercussion_BodypercussionUITests.framework */,
+				1AE6178AEECFC266148AFCF6 /* Pods_BodypercussionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB0703BE631FEFE9E16EF0DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBB9092218BC3CC09CBDD555 /* Pods-Bodypercussion.debug.xcconfig */,
+				586457360EB38689B98DF835 /* Pods-Bodypercussion.release.xcconfig */,
+				DDC4ADABAB7E8F62EBF0DA6A /* Pods-Bodypercussion-BodypercussionUITests.debug.xcconfig */,
+				B9D39679E01E5B934E8EC601 /* Pods-Bodypercussion-BodypercussionUITests.release.xcconfig */,
+				041CE1302A62782C73F1E0C9 /* Pods-BodypercussionTests.debug.xcconfig */,
+				114C9BCD5115852996DC472A /* Pods-BodypercussionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 478D2B06292F41A70008B8D2 /* Build configuration list for PBXNativeTarget "Bodypercussion" */;
 			buildPhases = (
+				BFEF6BEF9A87B262EB037CDD /* [CP] Check Pods Manifest.lock */,
 				478D2ADE292F41A60008B8D2 /* Sources */,
 				478D2ADF292F41A60008B8D2 /* Frameworks */,
 				478D2AE0292F41A60008B8D2 /* Resources */,
+				14BC97B40066ECCD3DECF4F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 478D2B09292F41A70008B8D2 /* Build configuration list for PBXNativeTarget "BodypercussionTests" */;
 			buildPhases = (
+				591A8026D58F3C2A970D26E1 /* [CP] Check Pods Manifest.lock */,
 				478D2AEE292F41A70008B8D2 /* Sources */,
 				478D2AEF292F41A70008B8D2 /* Frameworks */,
 				478D2AF0292F41A70008B8D2 /* Resources */,
@@ -169,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 478D2B0C292F41A70008B8D2 /* Build configuration list for PBXNativeTarget "BodypercussionUITests" */;
 			buildPhases = (
+				8FEA22A441A1D32065C188B9 /* [CP] Check Pods Manifest.lock */,
 				478D2AF8292F41A70008B8D2 /* Sources */,
 				478D2AF9292F41A70008B8D2 /* Frameworks */,
 				478D2AFA292F41A70008B8D2 /* Resources */,
+				C581D06F5A976E70F6A2A9FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +315,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				478D2AED292F41A60008B8D2 /* Preview Assets.xcassets in Resources */,
+				470FFBC7293148470086ED7D /* adult_3.mp3 in Resources */,
+				470FFBC5293148470086ED7D /* adult_0.mp3 in Resources */,
+				470FFBC2293148470086ED7D /* adult_7.mp3 in Resources */,
+				470FFBC6293148470086ED7D /* adult_1.mp3 in Resources */,
+				470FFBC3293148470086ED7D /* adult_2.mp3 in Resources */,
+				470FFBC1293148470086ED7D /* adult_6.mp3 in Resources */,
+				470FFBCA293148470086ED7D /* adult_9.mp3 in Resources */,
+				470FFBC9293148470086ED7D /* adult_4.mp3 in Resources */,
+				470FFBC4293148470086ED7D /* adult_8.mp3 in Resources */,
 				478D2B10292F439A0008B8D2 /* Assets.xcassets in Resources */,
+				470FFBC8293148470086ED7D /* adult_5.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +344,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14BC97B40066ECCD3DECF4F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bodypercussion/Pods-Bodypercussion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bodypercussion/Pods-Bodypercussion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bodypercussion/Pods-Bodypercussion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		591A8026D58F3C2A970D26E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BodypercussionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FEA22A441A1D32065C188B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bodypercussion-BodypercussionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFEF6BEF9A87B262EB037CDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bodypercussion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C581D06F5A976E70F6A2A9FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bodypercussion-BodypercussionUITests/Pods-Bodypercussion-BodypercussionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bodypercussion-BodypercussionUITests/Pods-Bodypercussion-BodypercussionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bodypercussion-BodypercussionUITests/Pods-Bodypercussion-BodypercussionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		478D2ADE292F41A60008B8D2 /* Sources */ = {
@@ -411,26 +607,31 @@
 		};
 		478D2B07292F41A70008B8D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB9092218BC3CC09CBDD555 /* Pods-Bodypercussion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Bodypercussion/Preview Content\"";
 				DEVELOPMENT_TEAM = 278BFDM8KA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BodyPercussion;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = www.tastenbraille.com.Bodypercussion;
+				PRODUCT_BUNDLE_IDENTIFIER = www.tastenbraille.bodypercussion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -440,26 +641,31 @@
 		};
 		478D2B08292F41A70008B8D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586457360EB38689B98DF835 /* Pods-Bodypercussion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Bodypercussion/Preview Content\"";
 				DEVELOPMENT_TEAM = 278BFDM8KA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BodyPercussion;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = www.tastenbraille.com.Bodypercussion;
+				PRODUCT_BUNDLE_IDENTIFIER = www.tastenbraille.bodypercussion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -469,6 +675,7 @@
 		};
 		478D2B0A292F41A70008B8D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041CE1302A62782C73F1E0C9 /* Pods-BodypercussionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +696,7 @@
 		};
 		478D2B0B292F41A70008B8D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114C9BCD5115852996DC472A /* Pods-BodypercussionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +717,7 @@
 		};
 		478D2B0D292F41A70008B8D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC4ADABAB7E8F62EBF0DA6A /* Pods-Bodypercussion-BodypercussionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +736,7 @@
 		};
 		478D2B0E292F41A70008B8D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D39679E01E5B934E8EC601 /* Pods-Bodypercussion-BodypercussionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

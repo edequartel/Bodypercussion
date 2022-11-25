@@ -1,0 +1,6 @@
+framework module Pods_Bodypercussion {
+  umbrella header "Pods-Bodypercussion-umbrella.h"
+
+  export *
+  module * { export * }
+}
