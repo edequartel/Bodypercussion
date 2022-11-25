@@ -21,7 +21,11 @@ struct ContentView: View {
     
     @State private var combination = 4
     
-    let max = 6
+    var hits = ["rythm", "dice", "fruit"]
+
+    @State private var hit = "rythm"
+    
+    @State private var max = 6
     
     var body: some View {
         ZStack {
@@ -31,7 +35,7 @@ struct ContentView: View {
                 //                    .fontWeight(.heavy)
                 //                Spacer()
                 HStack {
-                    RythmView(n: rythm1Number)
+                    RythmView(n: rythm1Number, h: hit)
                     ToneView(n: tone1Number)
                 }
                 .padding(.horizontal)
@@ -39,7 +43,7 @@ struct ContentView: View {
                 
                 if combination>1 {
                     HStack {
-                        RythmView(n: rythm2Number)
+                        RythmView(n: rythm2Number, h: hit)
                         ToneView(n: tone2Number)
                     }
                     .padding(.horizontal)
@@ -48,7 +52,7 @@ struct ContentView: View {
                 
                 if combination>2 {
                     HStack {
-                        RythmView(n: rythm3Number)
+                        RythmView(n: rythm3Number, h: hit)
                         ToneView(n: tone3Number)
                     }
                     .padding(.horizontal)
@@ -57,7 +61,7 @@ struct ContentView: View {
                 
                 if combination>3 {
                     HStack {
-                        RythmView(n: rythm4Number)
+                        RythmView(n: rythm4Number, h: hit)
                         ToneView(n: tone4Number)
                     }
                     .padding(.horizontal)
@@ -79,16 +83,28 @@ struct ContentView: View {
                         
                     Button(action: {
                         var sounds: [Sound] = []
-                        sounds.append(Sound(fileName: "adult_\(rythm1Number).mp3"))
-                        if combination>1 {sounds.append(Sound(fileName: "adult_\(rythm2Number).mp3"))}
-                        if combination>2 {sounds.append(Sound(fileName: "adult_\(rythm3Number).mp3"))}
-                        if combination>3 {sounds.append(Sound(fileName: "adult_\(rythm4Number).mp3"))}
+                        sounds.append(Sound(fileName: "\(hit)\(rythm1Number).mp3"))
+                        if combination>1 {sounds.append(Sound(fileName: "\(hit)\(rythm2Number).mp3"))}
+                        if combination>2 {sounds.append(Sound(fileName: "\(hit)\(rythm3Number).mp3"))}
+                        if combination>3 {sounds.append(Sound(fileName: "\(hit)\(rythm4Number).mp3"))}
                         sounds.play()
                     }){
-                        Text("Play")
+                        Text("play")
                     }
                     .padding(.horizontal)
                     Spacer()
+                    
+                    Picker("", selection: $hit) {
+                                    ForEach(hits, id: \.self) {
+                                        Text($0).tag($0)
+                                    }
+                                }
+                    .onChange(of: hit){
+                        tag in print("\(tag)")
+                        if tag==("fruit") {max = 4}
+                    }
+                    Spacer()
+
                     
                     Button(action: {
                         if combination>=4 {
@@ -98,7 +114,7 @@ struct ContentView: View {
                         }
                         
                     }){
-                        Text("Maten")
+                        Text("maten")
                     }
                     .padding(.horizontal)
                     
@@ -154,8 +170,9 @@ struct ToneView: View {
 
 struct RythmView: View {
     let n: Int
+    let h: String
     var body: some View {
-        Image("rythm\(n)")
+        Image("\(h)\(n)")
 //        Image("dice\(n)")
             .resizable()
             .aspectRatio(1, contentMode: .fit)

@@ -8,16 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		381637B90DB4E2C110762195 /* Pods_Bodypercussion_BodypercussionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A7CC899097E780DA416592 /* Pods_Bodypercussion_BodypercussionUITests.framework */; };
-		470FFBC1293148470086ED7D /* adult_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBB7293148470086ED7D /* adult_6.mp3 */; };
-		470FFBC2293148470086ED7D /* adult_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBB8293148470086ED7D /* adult_7.mp3 */; };
-		470FFBC3293148470086ED7D /* adult_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBB9293148470086ED7D /* adult_2.mp3 */; };
-		470FFBC4293148470086ED7D /* adult_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBA293148470086ED7D /* adult_8.mp3 */; };
-		470FFBC5293148470086ED7D /* adult_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBB293148470086ED7D /* adult_0.mp3 */; };
-		470FFBC6293148470086ED7D /* adult_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBC293148470086ED7D /* adult_1.mp3 */; };
-		470FFBC7293148470086ED7D /* adult_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBD293148470086ED7D /* adult_3.mp3 */; };
-		470FFBC8293148470086ED7D /* adult_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBE293148470086ED7D /* adult_5.mp3 */; };
-		470FFBC9293148470086ED7D /* adult_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBF293148470086ED7D /* adult_4.mp3 */; };
-		470FFBCA293148470086ED7D /* adult_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBC0293148470086ED7D /* adult_9.mp3 */; };
+		470FFBC1293148470086ED7D /* dice6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBB7293148470086ED7D /* dice6.mp3 */; };
+		470FFBC3293148470086ED7D /* dice2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBB9293148470086ED7D /* dice2.mp3 */; };
+		470FFBC6293148470086ED7D /* dice1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBC293148470086ED7D /* dice1.mp3 */; };
+		470FFBC7293148470086ED7D /* dice3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBD293148470086ED7D /* dice3.mp3 */; };
+		470FFBC8293148470086ED7D /* dice5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBE293148470086ED7D /* dice5.mp3 */; };
+		470FFBC9293148470086ED7D /* dice4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBBF293148470086ED7D /* dice4.mp3 */; };
+		470FFBCF293152E70086ED7D /* fruit4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBCB293152E60086ED7D /* fruit4.mp3 */; };
+		470FFBD0293152E70086ED7D /* fruit3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBCC293152E60086ED7D /* fruit3.mp3 */; };
+		470FFBD1293152E70086ED7D /* fruit2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBCD293152E70086ED7D /* fruit2.mp3 */; };
+		470FFBD2293152E70086ED7D /* fruit1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBCE293152E70086ED7D /* fruit1.mp3 */; };
+		470FFBD9293153410086ED7D /* rythm6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBD3293153410086ED7D /* rythm6.mp3 */; };
+		470FFBDA293153410086ED7D /* rythm3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBD4293153410086ED7D /* rythm3.mp3 */; };
+		470FFBDB293153410086ED7D /* rythm4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBD5293153410086ED7D /* rythm4.mp3 */; };
+		470FFBDC293153410086ED7D /* rythm1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBD6293153410086ED7D /* rythm1.mp3 */; };
+		470FFBDD293153410086ED7D /* rythm5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBD7293153410086ED7D /* rythm5.mp3 */; };
+		470FFBDE293153410086ED7D /* rythm2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBD8293153410086ED7D /* rythm2.mp3 */; };
 		478D2AE6292F41A60008B8D2 /* BodypercussionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2AE5292F41A60008B8D2 /* BodypercussionApp.swift */; };
 		478D2AE8292F41A60008B8D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2AE7292F41A60008B8D2 /* ContentView.swift */; };
 		478D2AED292F41A60008B8D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478D2AEC292F41A60008B8D2 /* Preview Assets.xcassets */; };
@@ -51,16 +57,22 @@
 		0B855F84EE9588707ABF40F8 /* Pods_Bodypercussion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bodypercussion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		114C9BCD5115852996DC472A /* Pods-BodypercussionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BodypercussionTests.release.xcconfig"; path = "Target Support Files/Pods-BodypercussionTests/Pods-BodypercussionTests.release.xcconfig"; sourceTree = "<group>"; };
 		1AE6178AEECFC266148AFCF6 /* Pods_BodypercussionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BodypercussionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		470FFBB7293148470086ED7D /* adult_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_6.mp3; sourceTree = "<group>"; };
-		470FFBB8293148470086ED7D /* adult_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_7.mp3; sourceTree = "<group>"; };
-		470FFBB9293148470086ED7D /* adult_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_2.mp3; sourceTree = "<group>"; };
-		470FFBBA293148470086ED7D /* adult_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_8.mp3; sourceTree = "<group>"; };
-		470FFBBB293148470086ED7D /* adult_0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_0.mp3; sourceTree = "<group>"; };
-		470FFBBC293148470086ED7D /* adult_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_1.mp3; sourceTree = "<group>"; };
-		470FFBBD293148470086ED7D /* adult_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_3.mp3; sourceTree = "<group>"; };
-		470FFBBE293148470086ED7D /* adult_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_5.mp3; sourceTree = "<group>"; };
-		470FFBBF293148470086ED7D /* adult_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_4.mp3; sourceTree = "<group>"; };
-		470FFBC0293148470086ED7D /* adult_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adult_9.mp3; sourceTree = "<group>"; };
+		470FFBB7293148470086ED7D /* dice6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice6.mp3; sourceTree = "<group>"; };
+		470FFBB9293148470086ED7D /* dice2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice2.mp3; sourceTree = "<group>"; };
+		470FFBBC293148470086ED7D /* dice1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice1.mp3; sourceTree = "<group>"; };
+		470FFBBD293148470086ED7D /* dice3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice3.mp3; sourceTree = "<group>"; };
+		470FFBBE293148470086ED7D /* dice5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice5.mp3; sourceTree = "<group>"; };
+		470FFBBF293148470086ED7D /* dice4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice4.mp3; sourceTree = "<group>"; };
+		470FFBCB293152E60086ED7D /* fruit4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fruit4.mp3; sourceTree = "<group>"; };
+		470FFBCC293152E60086ED7D /* fruit3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fruit3.mp3; sourceTree = "<group>"; };
+		470FFBCD293152E70086ED7D /* fruit2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fruit2.mp3; sourceTree = "<group>"; };
+		470FFBCE293152E70086ED7D /* fruit1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fruit1.mp3; sourceTree = "<group>"; };
+		470FFBD3293153410086ED7D /* rythm6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rythm6.mp3; sourceTree = "<group>"; };
+		470FFBD4293153410086ED7D /* rythm3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rythm3.mp3; sourceTree = "<group>"; };
+		470FFBD5293153410086ED7D /* rythm4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rythm4.mp3; sourceTree = "<group>"; };
+		470FFBD6293153410086ED7D /* rythm1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rythm1.mp3; sourceTree = "<group>"; };
+		470FFBD7293153410086ED7D /* rythm5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rythm5.mp3; sourceTree = "<group>"; };
+		470FFBD8293153410086ED7D /* rythm2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rythm2.mp3; sourceTree = "<group>"; };
 		478D2AE2292F41A60008B8D2 /* Bodypercussion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bodypercussion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		478D2AE5292F41A60008B8D2 /* BodypercussionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodypercussionApp.swift; sourceTree = "<group>"; };
 		478D2AE7292F41A60008B8D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,16 +121,22 @@
 		470FFBB6293148210086ED7D /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				470FFBBB293148470086ED7D /* adult_0.mp3 */,
-				470FFBBC293148470086ED7D /* adult_1.mp3 */,
-				470FFBB9293148470086ED7D /* adult_2.mp3 */,
-				470FFBBD293148470086ED7D /* adult_3.mp3 */,
-				470FFBBF293148470086ED7D /* adult_4.mp3 */,
-				470FFBBE293148470086ED7D /* adult_5.mp3 */,
-				470FFBB7293148470086ED7D /* adult_6.mp3 */,
-				470FFBB8293148470086ED7D /* adult_7.mp3 */,
-				470FFBBA293148470086ED7D /* adult_8.mp3 */,
-				470FFBC0293148470086ED7D /* adult_9.mp3 */,
+				470FFBD6293153410086ED7D /* rythm1.mp3 */,
+				470FFBD8293153410086ED7D /* rythm2.mp3 */,
+				470FFBD4293153410086ED7D /* rythm3.mp3 */,
+				470FFBD5293153410086ED7D /* rythm4.mp3 */,
+				470FFBD7293153410086ED7D /* rythm5.mp3 */,
+				470FFBD3293153410086ED7D /* rythm6.mp3 */,
+				470FFBCE293152E70086ED7D /* fruit1.mp3 */,
+				470FFBCD293152E70086ED7D /* fruit2.mp3 */,
+				470FFBCC293152E60086ED7D /* fruit3.mp3 */,
+				470FFBCB293152E60086ED7D /* fruit4.mp3 */,
+				470FFBBC293148470086ED7D /* dice1.mp3 */,
+				470FFBB9293148470086ED7D /* dice2.mp3 */,
+				470FFBBD293148470086ED7D /* dice3.mp3 */,
+				470FFBBF293148470086ED7D /* dice4.mp3 */,
+				470FFBBE293148470086ED7D /* dice5.mp3 */,
+				470FFBB7293148470086ED7D /* dice6.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -315,17 +333,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				478D2AED292F41A60008B8D2 /* Preview Assets.xcassets in Resources */,
-				470FFBC7293148470086ED7D /* adult_3.mp3 in Resources */,
-				470FFBC5293148470086ED7D /* adult_0.mp3 in Resources */,
-				470FFBC2293148470086ED7D /* adult_7.mp3 in Resources */,
-				470FFBC6293148470086ED7D /* adult_1.mp3 in Resources */,
-				470FFBC3293148470086ED7D /* adult_2.mp3 in Resources */,
-				470FFBC1293148470086ED7D /* adult_6.mp3 in Resources */,
-				470FFBCA293148470086ED7D /* adult_9.mp3 in Resources */,
-				470FFBC9293148470086ED7D /* adult_4.mp3 in Resources */,
-				470FFBC4293148470086ED7D /* adult_8.mp3 in Resources */,
+				470FFBDD293153410086ED7D /* rythm5.mp3 in Resources */,
+				470FFBD1293152E70086ED7D /* fruit2.mp3 in Resources */,
+				470FFBC7293148470086ED7D /* dice3.mp3 in Resources */,
+				470FFBDE293153410086ED7D /* rythm2.mp3 in Resources */,
+				470FFBDC293153410086ED7D /* rythm1.mp3 in Resources */,
+				470FFBDA293153410086ED7D /* rythm3.mp3 in Resources */,
+				470FFBC6293148470086ED7D /* dice1.mp3 in Resources */,
+				470FFBC3293148470086ED7D /* dice2.mp3 in Resources */,
+				470FFBC1293148470086ED7D /* dice6.mp3 in Resources */,
+				470FFBCF293152E70086ED7D /* fruit4.mp3 in Resources */,
+				470FFBC9293148470086ED7D /* dice4.mp3 in Resources */,
 				478D2B10292F439A0008B8D2 /* Assets.xcassets in Resources */,
-				470FFBC8293148470086ED7D /* adult_5.mp3 in Resources */,
+				470FFBDB293153410086ED7D /* rythm4.mp3 in Resources */,
+				470FFBC8293148470086ED7D /* dice5.mp3 in Resources */,
+				470FFBD0293152E70086ED7D /* fruit3.mp3 in Resources */,
+				470FFBD9293153410086ED7D /* rythm6.mp3 in Resources */,
+				470FFBD2293152E70086ED7D /* fruit1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,7 +636,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Bodypercussion/Preview Content\"";
 				DEVELOPMENT_TEAM = 278BFDM8KA;
 				ENABLE_PREVIEWS = YES;
@@ -633,6 +657,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = www.tastenbraille.bodypercussion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -646,7 +673,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Bodypercussion/Preview Content\"";
 				DEVELOPMENT_TEAM = 278BFDM8KA;
 				ENABLE_PREVIEWS = YES;
@@ -667,6 +694,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = www.tastenbraille.bodypercussion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
