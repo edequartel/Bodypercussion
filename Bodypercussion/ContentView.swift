@@ -22,24 +22,20 @@ struct ContentView: View {
     @State private var combination = 4
     
     var hits = ["rythm", "dice", "fruit"]
-
-    @State private var hit = "rythm"
+    var hitImages = ["dice.fill","leaf.fill","music.note"]
+    
+    @State private var hit = 0
     
     @State private var max = 6
     
     var body: some View {
         ZStack {
             VStack {
-                //                Text("Body Percussie")
-                //                    .font(.system(size: 20))
-                //                    .fontWeight(.heavy)
-                //                Spacer()
                 HStack {
                     RythmView(n: rythm1Number, h: hit)
                     ToneView(n: tone1Number)
                 }
                 .padding(.horizontal)
-                Spacer()
                 
                 if combination>1 {
                     HStack {
@@ -48,8 +44,6 @@ struct ContentView: View {
                     }
                     .padding(.horizontal)
                 }
-                Spacer()
-                
                 if combination>2 {
                     HStack {
                         RythmView(n: rythm3Number, h: hit)
@@ -57,8 +51,6 @@ struct ContentView: View {
                     }
                     .padding(.horizontal)
                 }
-                Spacer()
-                
                 if combination>3 {
                     HStack {
                         RythmView(n: rythm4Number, h: hit)
@@ -66,67 +58,65 @@ struct ContentView: View {
                     }
                     .padding(.horizontal)
                 }
-                Spacer()
-                
-                HStack {
-                    Button(action: {
-                        Throw()
-                    }) {
-                        Text("Go")
-                        //                            .font(.system(size: 30))
-                        //                            .foregroundColor(.blue)
-                        //                            .padding(.horizontal)
-                        //                            .foregroundColor(.gray)
-                    }
-                    .padding(.horizontal)
-                    Spacer()
-                        
-                    Button(action: {
-                        var sounds: [Sound] = []
-                        sounds.append(Sound(fileName: "\(hit)\(rythm1Number).mp3"))
-                        if combination>1 {sounds.append(Sound(fileName: "\(hit)\(rythm2Number).mp3"))}
-                        if combination>2 {sounds.append(Sound(fileName: "\(hit)\(rythm3Number).mp3"))}
-                        if combination>3 {sounds.append(Sound(fileName: "\(hit)\(rythm4Number).mp3"))}
-                        sounds.play()
-                    }){
-                        Text("play")
-                    }
-                    .padding(.horizontal)
-                    Spacer()
-                    
-                    Picker("", selection: $hit) {
-                                    ForEach(hits, id: \.self) {
-                                        Text($0).tag($0)
-                                    }
-                                }
-                    .onChange(of: hit){
-                        tag in print("\(tag)")
-                        if tag==("fruit") {max = 4}
-                    }
-                    Spacer()
-
-                    
-                    Button(action: {
-                        if combination>=4 {
-                            combination = 1
-                        } else {
-                            combination += 1
-                        }
-                        
-                    }){
-                        Text("maten")
-                    }
-                    .padding(.horizontal)
-                    
-                    
-
-                }
-            
             }
+            
         }
+        .padding(.vertical)
+        
+        Spacer()
+        
+        HStack {
+            Button(action: {
+                Throw()
+            }) {
+                StyleImage(name: "dice")
+            }
+            .padding(.horizontal)
+            
+            Button(action: {
+                var sounds: [Sound] = []
+                sounds.append(Sound(fileName: "\(hits[hit])\(rythm1Number).mp3"))
+                if combination>1 {sounds.append(Sound(fileName: "\(hits[hit])\(rythm2Number).mp3"))}
+                if combination>2 {sounds.append(Sound(fileName: "\(hits[hit])\(rythm3Number).mp3"))}
+                if combination>3 {sounds.append(Sound(fileName: "\(hits[hit])\(rythm4Number).mp3"))}
+                sounds.play()
+            }){
+                StyleImage(name: "play.circle.fill")
+            }
+            .padding(.horizontal)
+            
+            Button(action: {
+                if hit>=hits.count-1 {
+                    hit = 0
+                } else {
+                    hit += 1
+                }
+                print("hit (\(hit)")
+                if (hit==2) { Throw() }
+            }){
+//                StyleImage(name: "\(hitImages[hit])")
+                StyleImage(name: "square.split.1x2.fill")
+//                square.split.1x2.fill
+            }
+            .padding(.horizontal)
+            
+            Button(action: {
+                if combination>=4 {
+                    combination = 1
+                } else {
+                    combination += 1
+                }
+            }){
+                StyleImage(name: "\(combination).circle.fill")
+            }
+            .padding(.horizontal)
+            
+        }
+        .padding(.vertical)
     }
     
     func Throw() {
+        if hit==2 {max=4} else {max=6}
         self.tone1Number = Int.random(in: 1...max)
         self.tone2Number = Int.random(in: 1...max)
         self.tone3Number = Int.random(in: 1...max)
@@ -138,7 +128,7 @@ struct ContentView: View {
         
         print("\(self.tone1Number)")
     }
-        
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -162,21 +152,42 @@ struct ToneView: View {
     var body: some View {
         Image("body\(n)")
             .resizable()
+//            .frame(width: 120, height: 120) // resizes image to specified width and heigh
             .aspectRatio(1, contentMode: .fit)
             .rotationEffect(Angle(degrees: 90))
+            .background(.blue)
+            .cornerRadius(10)
+            .overlay(RoundedRectangle(cornerRadius: 10)
+                .stroke(Color.green, lineWidth: 4))
+            .shadow(radius: 10)
             .padding()
     }
 }
 
 struct RythmView: View {
     let n: Int
-    let h: String
+    let h: Int
+    var hits = ["rythm", "dice", "fruit"]
     var body: some View {
-        Image("\(h)\(n)")
-//        Image("dice\(n)")
+        Image("\(hits[h])\(n)")
             .resizable()
+//            .frame(width: 120, height: 120) // resizes image to specified width and heigh
             .aspectRatio(1, contentMode: .fit)
             .rotationEffect(Angle(degrees: 90))
+            .background(.blue)
+            .cornerRadius(10)
+            .overlay(RoundedRectangle(cornerRadius: 10)
+                .stroke(Color.orange, lineWidth: 4))
+            .shadow(radius: 10)
             .padding()
+    }
+}
+
+struct StyleImage : View {
+    let name: String
+    var body: some View {
+        Image(systemName: name)
+            .font(Font.system(.largeTitle))
+            .rotationEffect(Angle(degrees: 90))
     }
 }
