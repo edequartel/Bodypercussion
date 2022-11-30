@@ -14,14 +14,14 @@ struct ContentView: View {
     @State var rythm2Number = 1
     @State var rythm3Number = 1
     @State var rythm4Number = 1
-    @State var tone1Number = 1
-    @State var tone2Number = 1
-    @State var tone3Number = 1
-    @State var tone4Number = 1
+    @State var instrument1Nr = 1
+    @State var instrument2Nr = 1
+    @State var instrument3Nr = 1
+    @State var instrument4Nr = 1
     
     @State private var combination = 4
     
-    var hits = ["rythm", "dice", "fruit"]
+    var rythm = ["key", "dice", "fruit"]
     var hitImages = ["dice.fill","leaf.fill","music.note"]
     
     @State private var hit = 0
@@ -33,28 +33,28 @@ struct ContentView: View {
             VStack {
                 HStack {
                     RythmView(n: rythm1Number, h: hit)
-                    ToneView(n: tone1Number)
+                    ToneView(n: instrument1Nr)
                 }
                 .padding(.horizontal)
                 
                 if combination>1 {
                     HStack {
                         RythmView(n: rythm2Number, h: hit)
-                        ToneView(n: tone2Number)
+                        ToneView(n: instrument2Nr)
                     }
                     .padding(.horizontal)
                 }
                 if combination>2 {
                     HStack {
                         RythmView(n: rythm3Number, h: hit)
-                        ToneView(n: tone3Number)
+                        ToneView(n: instrument3Nr)
                     }
                     .padding(.horizontal)
                 }
                 if combination>3 {
                     HStack {
                         RythmView(n: rythm4Number, h: hit)
-                        ToneView(n: tone4Number)
+                        ToneView(n: instrument4Nr)
                     }
                     .padding(.horizontal)
                 }
@@ -74,11 +74,12 @@ struct ContentView: View {
             .padding(.horizontal)
             
             Button(action: {
+                Soundable.stopAll()
                 var sounds: [Sound] = []
-                sounds.append(Sound(fileName: "\(hits[hit])\(rythm1Number).mp3"))
-                if combination>1 {sounds.append(Sound(fileName: "\(hits[hit])\(rythm2Number).mp3"))}
-                if combination>2 {sounds.append(Sound(fileName: "\(hits[hit])\(rythm3Number).mp3"))}
-                if combination>3 {sounds.append(Sound(fileName: "\(hits[hit])\(rythm4Number).mp3"))}
+                sounds.append(Sound(fileName: "\(rythm[hit])\(rythm1Number).mp3"))
+                if combination>1 {sounds.append(Sound(fileName: "\(rythm[hit])\(rythm2Number).mp3"))}
+                if combination>2 {sounds.append(Sound(fileName: "\(rythm[hit])\(rythm3Number).mp3"))}
+                if combination>3 {sounds.append(Sound(fileName: "\(rythm[hit])\(rythm4Number).mp3"))}
                 sounds.play()
             }){
                 StyleImage(name: "play.circle.fill")
@@ -86,7 +87,7 @@ struct ContentView: View {
             .padding(.horizontal)
             
             Button(action: {
-                if hit>=hits.count-1 {
+                if hit>=rythm.count-1 {
                     hit = 0
                 } else {
                     hit += 1
@@ -117,16 +118,16 @@ struct ContentView: View {
     
     func Throw() {
         if hit==2 {max=4} else {max=6}
-        self.tone1Number = Int.random(in: 1...max)
-        self.tone2Number = Int.random(in: 1...max)
-        self.tone3Number = Int.random(in: 1...max)
-        self.tone4Number = Int.random(in: 1...max)
+        self.instrument1Nr = Int.random(in: 1...max)
+        self.instrument2Nr = Int.random(in: 1...max)
+        self.instrument3Nr = Int.random(in: 1...max)
+        self.instrument4Nr = Int.random(in: 1...max)
         self.rythm1Number = Int.random(in: 1...max)
         self.rythm2Number = Int.random(in: 1...max)
         self.rythm3Number = Int.random(in: 1...max)
         self.rythm4Number = Int.random(in: 1...max)
         
-        print("\(self.tone1Number)")
+        print("\(self.instrument1Nr)")
     }
     
 }
@@ -148,6 +149,7 @@ struct DiceView: View {
 }
 
 struct ToneView: View {
+
     let n: Int
     var body: some View {
         Image("body\(n)")
@@ -167,7 +169,7 @@ struct ToneView: View {
 struct RythmView: View {
     let n: Int
     let h: Int
-    var hits = ["rythm", "dice", "fruit"]
+    var hits = ["key", "dice", "fruit"]
     var body: some View {
         Image("\(hits[h])\(n)")
             .resizable()
@@ -177,7 +179,7 @@ struct RythmView: View {
             .background(.blue)
             .cornerRadius(10)
             .overlay(RoundedRectangle(cornerRadius: 10)
-                .stroke(Color.orange, lineWidth: 4))
+                .stroke(Color.blue, lineWidth: 4))
             .shadow(radius: 10)
             .padding()
     }

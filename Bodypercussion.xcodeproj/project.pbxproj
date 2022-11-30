@@ -25,12 +25,16 @@
 		470FFBDD293153410086ED7D /* rythm5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBD7293153410086ED7D /* rythm5.mp3 */; };
 		470FFBDE293153410086ED7D /* rythm2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 470FFBD8293153410086ED7D /* rythm2.mp3 */; };
 		478D2AE6292F41A60008B8D2 /* BodypercussionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2AE5292F41A60008B8D2 /* BodypercussionApp.swift */; };
-		478D2AE8292F41A60008B8D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2AE7292F41A60008B8D2 /* ContentView.swift */; };
+		478D2AE8292F41A60008B8D2 /* Contentview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2AE7292F41A60008B8D2 /* Contentview.swift */; };
 		478D2AED292F41A60008B8D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478D2AEC292F41A60008B8D2 /* Preview Assets.xcassets */; };
 		478D2AF7292F41A70008B8D2 /* BodypercussionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2AF6292F41A70008B8D2 /* BodypercussionTests.swift */; };
 		478D2B01292F41A70008B8D2 /* BodypercussionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2B00292F41A70008B8D2 /* BodypercussionUITests.swift */; };
 		478D2B03292F41A70008B8D2 /* BodypercussionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D2B02292F41A70008B8D2 /* BodypercussionUITestsLaunchTests.swift */; };
 		478D2B10292F439A0008B8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478D2B0F292F439A0008B8D2 /* Assets.xcassets */; };
+		47E11B372937A0D10003B8A2 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E11B362937A0D10003B8A2 /* SplashScreenView.swift */; };
+		47E11B3A2937A1B10003B8A2 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 47E11B392937A1B10003B8A2 /* Lottie */; };
+		47E11B3C2937A3150003B8A2 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E11B3B2937A3150003B8A2 /* LottieView.swift */; };
+		47E11B3F2937A4C00003B8A2 /* dotsloader.json in Resources */ = {isa = PBXBuildFile; fileRef = 47E11B3E2937A4C00003B8A2 /* dotsloader.json */; };
 		9E4A9105C2EE8238609A5759 /* Pods_Bodypercussion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B855F84EE9588707ABF40F8 /* Pods_Bodypercussion.framework */; };
 		B01B7FE65B890AF21CD7BC38 /* Pods_BodypercussionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE6178AEECFC266148AFCF6 /* Pods_BodypercussionTests.framework */; };
 /* End PBXBuildFile section */
@@ -75,7 +79,7 @@
 		470FFBD8293153410086ED7D /* rythm2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rythm2.mp3; sourceTree = "<group>"; };
 		478D2AE2292F41A60008B8D2 /* Bodypercussion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bodypercussion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		478D2AE5292F41A60008B8D2 /* BodypercussionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodypercussionApp.swift; sourceTree = "<group>"; };
-		478D2AE7292F41A60008B8D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		478D2AE7292F41A60008B8D2 /* Contentview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contentview.swift; sourceTree = "<group>"; };
 		478D2AEC292F41A60008B8D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		478D2AF2292F41A70008B8D2 /* BodypercussionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodypercussionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		478D2AF6292F41A70008B8D2 /* BodypercussionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodypercussionTests.swift; sourceTree = "<group>"; };
@@ -83,6 +87,9 @@
 		478D2B00292F41A70008B8D2 /* BodypercussionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodypercussionUITests.swift; sourceTree = "<group>"; };
 		478D2B02292F41A70008B8D2 /* BodypercussionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodypercussionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		478D2B0F292F439A0008B8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Dicer-SwiftUI/Dicee-SwiftUI/Assets.xcassets"; sourceTree = "<group>"; };
+		47E11B362937A0D10003B8A2 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		47E11B3B2937A3150003B8A2 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		47E11B3E2937A4C00003B8A2 /* dotsloader.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dotsloader.json; sourceTree = "<group>"; };
 		586457360EB38689B98DF835 /* Pods-Bodypercussion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bodypercussion.release.xcconfig"; path = "Target Support Files/Pods-Bodypercussion/Pods-Bodypercussion.release.xcconfig"; sourceTree = "<group>"; };
 		61A7CC899097E780DA416592 /* Pods_Bodypercussion_BodypercussionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bodypercussion_BodypercussionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D39679E01E5B934E8EC601 /* Pods-Bodypercussion-BodypercussionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bodypercussion-BodypercussionUITests.release.xcconfig"; path = "Target Support Files/Pods-Bodypercussion-BodypercussionUITests/Pods-Bodypercussion-BodypercussionUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +103,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E4A9105C2EE8238609A5759 /* Pods_Bodypercussion.framework in Frameworks */,
+				47E11B3A2937A1B10003B8A2 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +155,7 @@
 				478D2AE4292F41A60008B8D2 /* Bodypercussion */,
 				478D2AF5292F41A70008B8D2 /* BodypercussionTests */,
 				478D2AFF292F41A70008B8D2 /* BodypercussionUITests */,
+				47E11B3D2937A4830003B8A2 /* Resources */,
 				478D2AE3292F41A60008B8D2 /* Products */,
 				AB0703BE631FEFE9E16EF0DB /* Pods */,
 				7255AEFF660310FAADC9810B /* Frameworks */,
@@ -166,9 +175,8 @@
 		478D2AE4292F41A60008B8D2 /* Bodypercussion */ = {
 			isa = PBXGroup;
 			children = (
+				47E11B3329379FEF0003B8A2 /* Views */,
 				470FFBB6293148210086ED7D /* Audio */,
-				478D2AE5292F41A60008B8D2 /* BodypercussionApp.swift */,
-				478D2AE7292F41A60008B8D2 /* ContentView.swift */,
 				478D2B0F292F439A0008B8D2 /* Assets.xcassets */,
 				478D2AEB292F41A60008B8D2 /* Preview Content */,
 			);
@@ -198,6 +206,25 @@
 				478D2B02292F41A70008B8D2 /* BodypercussionUITestsLaunchTests.swift */,
 			);
 			path = BodypercussionUITests;
+			sourceTree = "<group>";
+		};
+		47E11B3329379FEF0003B8A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				478D2AE5292F41A60008B8D2 /* BodypercussionApp.swift */,
+				47E11B3B2937A3150003B8A2 /* LottieView.swift */,
+				478D2AE7292F41A60008B8D2 /* Contentview.swift */,
+				47E11B362937A0D10003B8A2 /* SplashScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		47E11B3D2937A4830003B8A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47E11B3E2937A4C00003B8A2 /* dotsloader.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		7255AEFF660310FAADC9810B /* Frameworks */ = {
@@ -241,6 +268,9 @@
 			dependencies = (
 			);
 			name = Bodypercussion;
+			packageProductDependencies = (
+				47E11B392937A1B10003B8A2 /* Lottie */,
+			);
 			productName = Bodypercussion;
 			productReference = 478D2AE2292F41A60008B8D2 /* Bodypercussion.app */;
 			productType = "com.apple.product-type.application";
@@ -316,6 +346,9 @@
 				Base,
 			);
 			mainGroup = 478D2AD9292F41A50008B8D2;
+			packageReferences = (
+				47E11B382937A1B10003B8A2 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 478D2AE3292F41A60008B8D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -342,6 +375,7 @@
 				470FFBC6293148470086ED7D /* dice1.mp3 in Resources */,
 				470FFBC3293148470086ED7D /* dice2.mp3 in Resources */,
 				470FFBC1293148470086ED7D /* dice6.mp3 in Resources */,
+				47E11B3F2937A4C00003B8A2 /* dotsloader.json in Resources */,
 				470FFBCF293152E70086ED7D /* fruit4.mp3 in Resources */,
 				470FFBC9293148470086ED7D /* dice4.mp3 in Resources */,
 				478D2B10292F439A0008B8D2 /* Assets.xcassets in Resources */,
@@ -477,8 +511,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				478D2AE8292F41A60008B8D2 /* ContentView.swift in Sources */,
+				478D2AE8292F41A60008B8D2 /* Contentview.swift in Sources */,
 				478D2AE6292F41A60008B8D2 /* BodypercussionApp.swift in Sources */,
+				47E11B372937A0D10003B8A2 /* SplashScreenView.swift in Sources */,
+				47E11B3C2937A3150003B8A2 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,7 +672,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Bodypercussion/Preview Content\"";
 				DEVELOPMENT_TEAM = 278BFDM8KA;
 				ENABLE_PREVIEWS = YES;
@@ -648,6 +684,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -672,7 +709,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Bodypercussion/Preview Content\"";
 				DEVELOPMENT_TEAM = 278BFDM8KA;
 				ENABLE_PREVIEWS = YES;
@@ -684,6 +721,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -821,6 +859,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		47E11B382937A1B10003B8A2 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		47E11B392937A1B10003B8A2 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 47E11B382937A1B10003B8A2 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 478D2ADA292F41A50008B8D2 /* Project object */;
 }
