@@ -24,8 +24,8 @@ struct SplashScreenView: View {
                     .frame(width: 150, height: 150)
             }
             .onAppear {
-                let sound = Sound(fileName: "perkinsping.mp3")
-                sound.play()
+//                let sound = Sound(fileName: "dice1.mp3")
+//                sound.play()
                 
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                     withAnimation {

@@ -10,10 +10,10 @@ import Soundable
 
 struct ContentView: View {
     
-    @State var rythm1Number = 1
-    @State var rythm2Number = 1
-    @State var rythm3Number = 1
-    @State var rythm4Number = 1
+    @State var rythm1Nr = 1
+    @State var rythm2Nr = 1
+    @State var rythm3Nr = 1
+    @State var rythm4Nr = 1
     @State var instrument1Nr = 1
     @State var instrument2Nr = 1
     @State var instrument3Nr = 1
@@ -22,39 +22,41 @@ struct ContentView: View {
     @State private var combination = 4
     
     var rythm = ["key", "dice", "fruit"]
-    var hitImages = ["dice.fill","leaf.fill","music.note"]
+    var instrument = ["body"]
     
-    @State private var hit = 0
+    @State private var rythmIndex = 0
+    @State private var instrumentIndex = 0
     
     @State private var max = 6
     
     var body: some View {
+//        NavigationViiew{
         ZStack {
             VStack {
                 HStack {
-                    RythmView(n: rythm1Number, h: hit)
-                    ToneView(n: instrument1Nr)
+                    BodyView(index: rythm1Nr, bank: rythm[rythmIndex])
+                    BodyView(index: instrument1Nr, bank: instrument[instrumentIndex])
                 }
                 .padding(.horizontal)
                 
                 if combination>1 {
                     HStack {
-                        RythmView(n: rythm2Number, h: hit)
-                        ToneView(n: instrument2Nr)
+                        BodyView(index: rythm2Nr, bank: rythm[rythmIndex])
+                        BodyView(index: instrument2Nr, bank: instrument[instrumentIndex])
                     }
                     .padding(.horizontal)
                 }
                 if combination>2 {
                     HStack {
-                        RythmView(n: rythm3Number, h: hit)
-                        ToneView(n: instrument3Nr)
+                        BodyView(index: rythm3Nr, bank: rythm[rythmIndex])
+                        BodyView(index: instrument3Nr, bank: instrument[instrumentIndex])
                     }
                     .padding(.horizontal)
                 }
                 if combination>3 {
                     HStack {
-                        RythmView(n: rythm4Number, h: hit)
-                        ToneView(n: instrument4Nr)
+                        BodyView(index: rythm4Nr, bank: rythm[rythmIndex])
+                        BodyView(index: instrument4Nr, bank: instrument[instrumentIndex])
                     }
                     .padding(.horizontal)
                 }
@@ -76,30 +78,29 @@ struct ContentView: View {
             Button(action: {
                 Soundable.stopAll()
                 var sounds: [Sound] = []
-                sounds.append(Sound(fileName: "\(rythm[hit])\(rythm1Number).mp3"))
-                if combination>1 {sounds.append(Sound(fileName: "\(rythm[hit])\(rythm2Number).mp3"))}
-                if combination>2 {sounds.append(Sound(fileName: "\(rythm[hit])\(rythm3Number).mp3"))}
-                if combination>3 {sounds.append(Sound(fileName: "\(rythm[hit])\(rythm4Number).mp3"))}
+                print("\(rythm[rythmIndex])\(rythm1Nr).mp3")
+                sounds.append(Sound(fileName: "\(rythm[rythmIndex])\(rythm1Nr).mp3"))
+                if combination>1 {sounds.append(Sound(fileName: "\(rythm[rythmIndex])\(rythm2Nr).mp3"))}
+                if combination>2 {sounds.append(Sound(fileName: "\(rythm[rythmIndex])\(rythm3Nr).mp3"))}
+                if combination>3 {sounds.append(Sound(fileName: "\(rythm[rythmIndex])\(rythm4Nr).mp3"))}
                 sounds.play()
             }){
                 StyleImage(name: "play.circle.fill")
             }
             .padding(.horizontal)
             
-            Button(action: {
-                if hit>=rythm.count-1 {
-                    hit = 0
-                } else {
-                    hit += 1
-                }
-                print("hit (\(hit)")
-                if (hit==2) { Throw() }
-            }){
-//                StyleImage(name: "\(hitImages[hit])")
-                StyleImage(name: "square.split.1x2.fill")
-//                square.split.1x2.fill
-            }
-            .padding(.horizontal)
+//            Button(action: {
+//                if rythmIndex>=rythm.count-1 {
+//                    rythmIndex = 0
+//                } else {
+//                    rythmIndex += 1
+//                }
+//                print("rythmIndex (\(rythmIndex)")
+//                if (rythmIndex==2) { Throw() }
+//            }){
+//                StyleImage(name: "square.split.1x2.fill")
+//            }
+//            .padding(.horizontal)
             
             Button(action: {
                 if combination>=4 {
@@ -114,21 +115,24 @@ struct ContentView: View {
             
         }
         .padding(.vertical)
+        
     }
     
+    
     func Throw() {
-        if hit==2 {max=4} else {max=6}
+        if rythmIndex==2 {max=4} else {max=6}
         self.instrument1Nr = Int.random(in: 1...max)
         self.instrument2Nr = Int.random(in: 1...max)
         self.instrument3Nr = Int.random(in: 1...max)
         self.instrument4Nr = Int.random(in: 1...max)
-        self.rythm1Number = Int.random(in: 1...max)
-        self.rythm2Number = Int.random(in: 1...max)
-        self.rythm3Number = Int.random(in: 1...max)
-        self.rythm4Number = Int.random(in: 1...max)
+        self.rythm1Nr = Int.random(in: 1...max)
+        self.rythm2Nr = Int.random(in: 1...max)
+        self.rythm3Nr = Int.random(in: 1...max)
+        self.rythm4Nr = Int.random(in: 1...max)
         
         print("\(self.instrument1Nr)")
     }
+        
     
 }
 
@@ -138,42 +142,24 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct DiceView: View {
-    let n: Int
-    var body: some View {
-        Image("dice\(n)")
-            .resizable()
-            .aspectRatio(1, contentMode: .fit)
-            .padding()
-    }
-}
+//struct DiceView: View {
+//    let n: Int
+//    var body: some View {
+//        Image("dice\(n)")
+//            .resizable()
+//            .aspectRatio(1, contentMode: .fit)
+//            .padding()
+//    }
+//}
 
-struct ToneView: View {
 
-    let n: Int
+struct BodyView: View {
+    let index: Int //index van de set
+    let bank: String //uit welke set van images/audio moet er 1 gepakt worden
+    
     var body: some View {
-        Image("body\(n)")
+        Image("\(bank)\(index)")
             .resizable()
-//            .frame(width: 120, height: 120) // resizes image to specified width and heigh
-            .aspectRatio(1, contentMode: .fit)
-            .rotationEffect(Angle(degrees: 90))
-            .background(.blue)
-            .cornerRadius(10)
-            .overlay(RoundedRectangle(cornerRadius: 10)
-                .stroke(Color.green, lineWidth: 4))
-            .shadow(radius: 10)
-            .padding()
-    }
-}
-
-struct RythmView: View {
-    let n: Int
-    let h: Int
-    var hits = ["key", "dice", "fruit"]
-    var body: some View {
-        Image("\(hits[h])\(n)")
-            .resizable()
-//            .frame(width: 120, height: 120) // resizes image to specified width and heigh
             .aspectRatio(1, contentMode: .fit)
             .rotationEffect(Angle(degrees: 90))
             .background(.blue)
